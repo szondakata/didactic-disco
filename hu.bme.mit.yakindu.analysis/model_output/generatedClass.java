@@ -1,5 +1,3 @@
-package hu.bme.mit.yakindu.analysis.workhere;
-
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -28,8 +26,8 @@ public class RunStatechart {
 		s.init();
 		s.enter();
 		s.runCycle();
-		print(s);
-		
+		print(s);		
+
 		while(scanner.hasNext()) {
 			try {
 				input = scanner.nextLine();
@@ -39,15 +37,14 @@ public class RunStatechart {
 			}
 			
 			input = input.toLowerCase();
-			switch(input) {
-			case "start":
+			switch(input) {			case "start":
 				s.raiseStart();
 				break;
 			case "white":
-				s.raiseWhite();
+				s.raiseStart();
 				break;
 			case "black":
-				s.raiseBlack();
+				s.raiseStart();
 				break;
 			case "exit":
 				scanner.close();
@@ -60,8 +57,7 @@ public class RunStatechart {
 		}	
 	}
 
-	public static void print(IExampleStatemachine s) {
-		System.out.println("W = " + s.getSCInterface().getWhiteTime());
-		System.out.println("B = " + s.getSCInterface().getBlackTime());
-	}
+public static void print(IExampleStatemachine s){
+	System.out.println("W = " + s.getSCInterface().getWhiteTime());
+	System.out.println("B = " + s.getSCInterface().getBlackTime());
 }
