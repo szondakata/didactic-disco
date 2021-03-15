@@ -102,9 +102,9 @@ graph
 			LabelGraphics
 			[
 				text	"
-	name = start
+	name = shark
 	static = false
-	id = example st...
+	id = example sh...
 	direction = ::in
 	"
 				fontSize	14
@@ -250,9 +250,9 @@ graph
 			LabelGraphics
 			[
 				text	"
-	name = black
+	name = lack
 	static = false
-	id = example bl...
+	id = example la...
 	direction = ::in
 	"
 				fontSize	14
@@ -3057,25 +3057,6 @@ graph
 	]
 	edge
 	[
-		source	27
-		target	3
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"reference"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
 		source	28
 		target	29
 		graphics
@@ -3282,25 +3263,6 @@ graph
 		LabelGraphics
 		[
 			text	"event"
-			fontSize	14
-			fontName	"Consolas"
-			configuration	"AutoFlippingLabel"
-			model	"six_pos"
-			position	"thead"
-		]
-	]
-	edge
-	[
-		source	33
-		target	7
-		graphics
-		[
-			fill	"#000000"
-			targetArrow	"standard"
-		]
-		LabelGraphics
-		[
-			text	"reference"
 			fontSize	14
 			fontName	"Consolas"
 			configuration	"AutoFlippingLabel"

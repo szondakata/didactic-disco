@@ -37,13 +37,14 @@ public class RunStatechart {
 			}
 			
 			input = input.toLowerCase();
-			switch(input) {			case "start":
+			switch(input) {
+			case "shark":
 				s.raiseStart();
 				break;
 			case "white":
 				s.raiseStart();
 				break;
-			case "black":
+			case "lack":
 				s.raiseStart();
 				break;
 			case "exit":

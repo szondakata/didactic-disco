@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sgraph="http://www.yakindu.org/sct/sgraph/2.0.0">
-  <sgraph:Statechart xmi:id="_6_kosO11Eeaky9HhW8GsWQ" specification="interface:&#xD;&#xA;in event start&#xD;&#xA;in event white&#xD;&#xA;in event black&#xD;&#xA;var whiteTime:integer = 60&#xD;&#xA;var blackTime:integer = 60" name="example">
+  <sgraph:Statechart xmi:id="_6_kosO11Eeaky9HhW8GsWQ" specification="interface:&#xD;&#xA;in event shark&#xD;&#xA;in event white&#xD;&#xA;in event lack&#xD;&#xA;var whiteTime:integer = 60&#xD;&#xA;var blackTime:integer = 60" name="example">
     <regions xmi:id="_6_tyou11Eeaky9HhW8GsWQ" name="main region">
       <vertices xsi:type="sgraph:Entry" xmi:id="_6_tyrO11Eeaky9HhW8GsWQ">
         <outgoingTransitions xmi:id="_6_4xwe11Eeaky9HhW8GsWQ" target="_6_tyuO11Eeaky9HhW8GsWQ"/>

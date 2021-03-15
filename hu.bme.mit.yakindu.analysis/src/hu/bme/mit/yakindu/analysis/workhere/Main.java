@@ -123,7 +123,7 @@ public class Main {
 				"			}\r\n" + 
 				"			\r\n" + 
 				"			input = input.toLowerCase();\r\n" + 
-				"			switch(input) {");
+				"			switch(input) {\r\nS");
 		String switchStr = new String ("");
 		String printFunctionStr = new String("public static void print(IExampleStatemachine s){\n");
 		String temp;
